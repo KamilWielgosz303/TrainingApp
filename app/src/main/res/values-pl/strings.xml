@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Aplikacja Treningowa</string>
+    <string name="BMI_EnterHeight">Wprowadź swój wzrost(cm):</string>
+    <string name="BMI_EnterWeight">Wprowadź swoją wagę (kg):</string>
+    <string name="BMI_Label">Kalkulator BMI</string>
+    <string name="Calculate">Oblicz</string>
+    <string name="action_settings">Język</string>
+    <string name="kalkulator_BMI">Kalkulator BMI</string>
+    <string name="kalkulator_BMR">Kalkulator BMR</string>
+    <string name="kalkulator_tluszcz">Kalkulator tkanki tłuszczowej</string>
+    <string name="calculatorAge">Wprowadź swój wiek:</string>
+    <string name="EnterWaist">Wprowadź swój obwód w pasie(cm):</string>
+    <string name="fatLabel">Tłuszcz %:</string>
+    <string name="BMI_Discription_Underweight">Niedowaga</string>
+    <string name="BMI_Discription_Normal_weight">Waga prawidłowa</string>
+    <string name="BMI_Discription_Overweight">Nadwaga</string>
+    <string name="BMI_Discription_Obese">Otyłość</string>
+    <string name="BMI_Discription_Morbidly_Obese">Otyłość alarmowa</string>
+    <string name="dayLabel">Dni treningowe</string>
+    <string name="exercisesLabel">Ćwiczenia:</string>
+    <string name="exception">Błąd! Wprowadź lub popraw dane.</string>
+    <string name="confirmDialog">OK</string>
+    <string name="cancelDialog">Wycofaj</string>
+    <string name="maxDaysAlert">Osiągnięto maksymalną liczbe dni treningowych.</string>
+    <string name="maxExercisesAlert">Osiągnięto maksymalną liczbę ćwiczeń.</string>
+    <string name="deleteAlert">Czy na pewno chcesz usunąć dzień treningowy.</string>
+    <string name="enterName">Wprowadź nazwę ćwiczenia:</string>
+    <string name="Weight">Waga</string>
+    <string name="Age">Wiek</string>
+    <string name="Growth">Wzrost</string>
+    <string name="Man">Mężczyzna</string>
+    <string name="Waist">Obwód pasa</string>
+    <string name="Woman">Kobieta</string>
+    <string name="toManyRows">Osiągnieto maksymalną liczbe wierszy.</string>
+    <string name="deleteEx">Czy na pewno chcesz usunac to cwiczenie?</string>
+    <string name="yes">Tak</string>
+    <string name="no">Nie</string>
+    <string name="save">ZAPISZ</string>
+    <string name="Edit">EDYTUJ</string>
+    <string name="sets">Serie</string>
+    <string name="repeats">Powtórzenia</string>
+    <string name="weight">Ciężar</string>
+    <string name="delete">Usuń</string>
+</resources>

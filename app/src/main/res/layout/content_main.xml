@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/tlocwiczenia"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".MainActivity"
+    tools:showIn="@layout/activity_main">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="55dp"
+        android:layout_marginTop="28dp"
+        android:fontFamily="casual"
+        android:text="@string/dayLabel"
+        android:textColor="#FFFFFF"
+        android:textSize="36sp"
+        app:layout_constraintEnd_toStartOf="@+id/imageButton6"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <ImageButton
+        android:id="@+id/imageButton6"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="23dp"
+        android:layout_marginEnd="48dp"
+        android:background="@drawable/createplusiconpng"
+        android:onClick="addDay"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/textView"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <LinearLayout
+        android:id="@+id/linearDays"
+        android:layout_width="350dp"
+        android:layout_height="450dp"
+        android:layout_marginTop="20dp"
+        android:orientation="vertical"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageButton6">
+
+        <Button
+            android:id="@+id/day1"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:saveEnabled="true"
+            android:text="Button"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/day2"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:text="Button"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/day3"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:text="Button"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/day4"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:text="Button"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/day5"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:text="Button"
+            android:visibility="invisible"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/day6"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:text="Button"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/day7"
+            android:layout_width="350dp"
+            android:layout_height="63dp"
+            android:text="Button"
+            android:visibility="invisible"
+            tools:visibility="visible" />
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
